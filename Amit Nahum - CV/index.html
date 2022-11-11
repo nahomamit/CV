@@ -5,90 +5,40 @@
   <meta charset="utf-8">
   <title>Amit Nahum</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <div class="headers">
-    <h1>Amit Nahum</h1>
-    <h3>Backend Developer</h3>
-  </div>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="">Amit Nahum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <!--
-  <div class="nav-bar">
-    <ul>
-      <li>
-        <a href=<a href="mailto:nahumamit97@gmail.com?subject=feedback">nahumamit97@gmail.com</a>
-      </li>
-      <li>
-        <a href="linkedin.com/in/nahumamit">linkedin.com/in/nahumamit</a>
-      </li>
-    </ul>
-  </div>
-  -->
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Who am I
+          </a>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#">Experience</a>
+            <a class="dropdown-item" href="#">Education</a>
+            <a class="dropdown-item" href="#">Skills</a>
+            <a class="dropdown-item" href="">Languages</a>
+            <a class="dropdown-item" href="">Hobbies</a>
+          </div>
+        </li>
 
-  <div class="experience">
-    <h3>Experience</h3>
-    <h4>ELTA Systems LTD</h4>
-    <h6>Backend Developer</h6>
-    <h6>10/21 - Present</h6>
-    <p>
-      Working on a large-scale Communications Intelligence project, which
-      record, analyze signals and creates a situation picture for the client.
-    </p>
-    <ul>
-
-      <li>
-        Develop microservices using C# .NET core,
-        part of them scalable to handle thousands of messages in a second.
-      </li>
-      <li>
-        Worked and improve old,
-        massive code to use RabbitMQ as messaging broker,
-        and ELK as a visualization log.
-      </li>
-      <li>
-        Handle new technologic such as run microservices on Linux docker,
-        creating and fixing WinForm screens and developing backend services
-        for a Kibana dashboard.
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="Education">
-    <h3>Education</h3>
-    <h4>B.sc Computer Science</h4>
-    <h6>Bar Ilan University</h6>
-    <h6>10/18 - 03/22</h6>
-  </div>
-
-  <div class="Skills">
-    <h3>Skills</h3>
-    <ul>
-      <li>C#</li>
-      <li>.NET</li <li>OOP</li>
-      <li>RabbitMQ</li>
-      <li>docker</li>
-      <li>git</li>
-    </ul>
-  </div>
-
-  <div class="Languages">
-    <h3>Languages</h3>
-    <h4>Hebrew</h4>
-    <h6>Nativ</h6>
-    <h4>English</h4>
-    <h6>Full Professional Proficiency</h6>
-  </div>
-
-
-   <div class="Hobbies">
-     <h3>Hobbies</h3>
-     <ul>
-       <li>Soccer</li>
-       <li>Trivia</li>
-     </ul>
-   </div>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact me</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 </body>
 
