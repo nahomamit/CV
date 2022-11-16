@@ -1,5 +1,49 @@
 
-body {
-  background-color: #F6F6C9;
-  margin: 5%;
+.headers {
+  background-color:  #BCEAD5;
+  padding: 7% 15%;
+}
+
+.navbar-collapse {
+  font-size: 1.2rem;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.mainParagaph {
+  padding-top: 10%;
+  font-family: "Montserrat";
+  line-height: 1.5;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+h2 {
+  font-weight: 600;
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h6 {
+  font-size: 1rem;
+}
+
+.experienceSection {
+  padding: 7% 15%;
+  background-color: #fff;
+  font-family: "Montserrat";
+}
+
+.experienceItem {
+  padding: 25px 50px;
+}
+
+li {
+  padding-bottom: 5px;
 }
