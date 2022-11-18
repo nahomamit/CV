@@ -1,6 +1,7 @@
 
 .headers {
-  background-color:  #BCEAD5;
+  background-color:  #EB6440;
+  color: #fff;
   padding: 7% 15%;
 }
 
@@ -8,9 +9,15 @@
   font-size: 1.2rem;
   justify-content: center;
   font-weight: bold;
+  color: #fff;
+}
+
+.navbar-expand-sm .navbar-nav .nav-link {
+  color: #fff;
 }
 
 .mainParagaph {
+  color: #fff;
   padding-top: 10%;
   font-family: "Montserrat";
   line-height: 1.5;
@@ -37,6 +44,7 @@ h6 {
 .experienceSection {
   padding: 7% 15%;
   background-color: #fff;
+  color: #EB6440;
   font-family: "Montserrat";
 }
 
@@ -45,5 +53,20 @@ h6 {
 }
 
 li {
+  padding-bottom: 5px;
+}
+
+.skillsSection {
+  padding: 7% 15%;
+  color: #fff;
+  background-color: #EB6440;
+  font-family: "Montserrat";
+}
+
+.skillsGrid {
+  padding: 25px 50px;
+}
+
+.skillItem {
   padding-bottom: 5px;
 }
